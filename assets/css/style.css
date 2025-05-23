@@ -1,15 +1,111 @@
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-  font-family: "Hiragino Kaku Gothic ProN", sans-serif;
+@charset "utf-8";
+body {
+  background: #EEEEEE;
 }
-img {
+.container {
+  margin: 0 auto;
+  width: 1000px;
+  color: #333333;
+}
+header {
   width: 100%;
+  margin: 60px 0 15px;
 }
-a {
-  text-decoration: none;
+.header-title {
+  width: 160px;
+  line-height: 1px;
 }
-li {
-  list-style: none;
+.mainvisual {
+  width: 100%;
+  margin: 0 0 60px;
+}
+.mainvisual img {
+  height: 400px;
+}
+#index {
+  width: 100%;
+  margin: 0 auto 60px;
+  background: #FFFFFF;
+  padding: 30px 0;
+}
+.wrapper {
+  width: 600px;
+  margin: 0 auto;
+}
+.section-title {
+  font-size: 18px;
+  font-weight: 600;
+  margin: 0 0 10px;
+  display: inline-block;
+}
+.wrapper-list {
+  margin: 0 0 0 20px;
+}
+.wrapper-item {
+  font-size: 14px;
+  font-weight: 300;
+  margin: 0 0 20px;
+}
+.wrapper-item:last-child {
+  margin: 0;
+}
+#detail {
+  width: 100%;
+  margin: 0 auto 100px;
+}
+.content {
+  width: 600px;
+  margin: 0 auto;
+}
+.content-box {
+  display: flex;
+  justify-content: space-between;
+}
+.content-box img {
+  width: 270px;
+  height: 270px;
+  margin: 0 60px 0 0;
+}
+.content-info h3 {
+  font-size: 18px;
+  font-weight: 600;
+  padding: 0 0 20px;
+  border-bottom: 1px solid #DEDEDE;
+}
+dl {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 16px 0;
+  border-bottom: 1px solid #DEDEDE;
+  font-size: 14px;
+  font-weight: 300;
+}
+dt {
+  width: 25%;
+}
+dd {
+  width: 75%;
+}
+.content-text {
+  width: 100%;
+  height: 63px;
+  font-size: 14px;
+  font-weight: 300;
+  margin: 25px 0 20px;
+  overflow: scroll;
+  display: -webkit-box;
+  text-overflow: ellipsis;
+  -webkit-box-orient: vertical;
+}
+.btn a {
+  color: #333333;
+  text-decoration: underline;
+}
+footer {
+  padding: 10px 0;
+}
+.footer-text {
+  width: 600px;
+  font-size: 10px;
+  margin: 0 auto;
 }
